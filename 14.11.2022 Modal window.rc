@@ -1,0 +1,189 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 143, 169
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Меню"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Автозаправка",IDC_BUTTON1,22,17,98,25
+    PUSHBUTTON      "Кафе",IDC_BUTTON2,22,50,98,25
+    GROUPBOX        "Счет",IDC_STATIC,24,85,94,66,BS_CENTER
+    EDITTEXT        IDC_EDITSUMM1,33,128,73,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Итого:",IDC_STATIC,34,117,23,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 143, 179
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Автозаправка"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Автозаправка",IDC_STATIC,7,7,129,165
+    LTEXT           "Бензин",IDC_STATIC,13,27,24,8
+    LTEXT           "Цена",IDC_STATIC,13,55,17,8
+    GROUPBOX        "",IDC_STATIC,13,74,59,44
+    CONTROL         "Количество",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,16,84,52,10
+    CONTROL         "Сумма",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,16,101,52,10
+    EDITTEXT        IDC_EDIT3,76,83,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,76,100,52,14,ES_AUTOHSCROLL
+    GROUPBOX        "Счет:",IDC_STATIC,15,138,112,28
+    EDITTEXT        IDC_EDITSUMM2,20,148,82,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "euro",IDC_STATIC,106,150,15,8
+    EDITTEXT        IDC_EDIT13,42,53,69,14,ES_AUTOHSCROLL | ES_READONLY
+    LISTBOX         IDC_LIST1,42,22,81,20,LBS_SORT | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "euro",IDC_STATIC,114,55,15,8
+    PUSHBUTTON      "Готово",IDC_BUTTON2,17,123,109,14
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 143, 179
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Кафе-бар"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Кафе",IDC_STATIC,7,7,129,165
+    CONTROL         "Хот-дог",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,35,41,10
+    CONTROL         "Чизбургер",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,49,50,10
+    CONTROL         "Картошка фри",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,63,64,10
+    CONTROL         "Пончик",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,77,40,10
+    CONTROL         "Кола",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,91,32,10
+    CONTROL         "Чай",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,105,28,10
+    LTEXT           "Цена",IDC_STATIC,82,19,17,8
+    LTEXT           "Кол-во",IDC_STATIC,108,19,24,8
+    EDITTEXT        IDC_EDIT1,77,33,25,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT5,77,47,25,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT6,77,62,25,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT7,77,76,25,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT8,77,91,25,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT9,77,105,25,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,107,33,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,107,47,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,107,61,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,107,76,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,107,90,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,107,105,25,12,ES_AUTOHSCROLL
+    GROUPBOX        "Счет:",IDC_STATIC,15,138,112,28
+    EDITTEXT        IDC_EDITSUMM3,20,148,82,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "euro",IDC_STATIC,106,150,15,8
+    PUSHBUTTON      "Готово",IDC_BUTTON1,17,123,109,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
